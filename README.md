@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🪙 YUAN BANK (¥)
 
-## Getting Started
+**YUAN BANK** 是一款去中心化的金融与身份协议。它将以太坊的资产存储（Vault）、自动代币分发（Minting）以及去中心化域名服务（DID）完美融合。它是为 **oracat** 社交生态系统打造的底层金融基石。
 
-First, run the development server:
 
+s
+## 🚀 核心功能 (Core Features)
+
+- **🏦 去中心化金库 (The Vault)**: 100% 储备金制度。用户可以随时存入 ETH，并拥有对其资产的绝对所有权（自托管）。
+- **💰 存款即挖矿 (Deposit to Mint)**: 存入 ETH 自动获得 **YUAN Token**。这是系统内的权益凭证，支持点对点自由转账。
+- **🆔 域名身份系统 (Naming Service)**: 用户可注册唯一的 `.yuan` 域名。该域名不仅是银行账号，更是去中心化社交平台的唯一 ID。
+- **⚖️ 协议收入模型**: 域名注册费直接存入合约，仅限协议拥有者（Owner）提取，实现可持续的开发收益。
+
+## 🛠 技术栈 (Tech Stack)
+
+- **Smart Contracts**: Solidity ^0.8.20 (Hardhat 框架)
+- **Frontend**: Next.js 15 (App Router), Tailwind CSS
+- **Blockchain Interaction**: Ethers.js v6
+- **Wallet**: MetaMask
+
+## 📦 快速开始 (Getting Started)
+
+### 1. 克隆并安装环境
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git clone [https://github.com/你的用户名/yuan-bank.git](https://github.com/你的用户名/yuan-bank.git)
+cd yuan-bank
+npm install
