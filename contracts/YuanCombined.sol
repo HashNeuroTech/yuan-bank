@@ -26,6 +26,9 @@ contract YuanCombined {
 
     constructor() {
         bankOwner = msg.sender;
+        // 🔥 关键修改：开局给自己印 100 万个币
+        // 假设你想让部署者默认拥有 1,000,000 YUAN
+        tokenBalances[msg.sender] = 1000000;
     }
 
     // --- 1. 域名系统 (整合 SimpleDomainRegistry 完整功能) ---
