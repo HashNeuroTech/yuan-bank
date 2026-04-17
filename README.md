@@ -1,6 +1,8 @@
 # 🪙 YUAN BANK (¥)
 
+HEAD
 **YUAN BANK** 是一款去中心化的金融与身份协议。它将以太坊的资产存储（Vault）、自动代币分发（Minting）以及去中心化域名服务（DID）完美融合。它是为 **oracat** 社交生态系统打造的底层金融基石。
+**YUAN BANK** 是一款去中心化的金融银行与域名协议。它将以太坊的资产存储（Vault）、自动代币分发（Minting）以及去中心化域名服务（DID）完美融合。它是为去中心化社交生态系统打造的底层金融基石。b25a22e4bc56b23b35bd2d36ca1713cc0ff7d79d
 
 
 s
@@ -24,4 +26,8 @@ s
 ```bash
 git clone [https://github.com/你的用户名/yuan-bank.git](https://github.com/你的用户名/yuan-bank.git)
 cd yuan-bank
+<<<<<<< HEAD
 npm install
+=======
+npm install
+>>>>>>> b25a22e4bc56b23b35bd2d36ca1713cc0ff7d79d
